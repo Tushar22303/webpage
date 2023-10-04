@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.hero{
+    background-color: #1d2026;
+    min-height: 100vh;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px 8%;
+}
+
+nav .menu-image{
+    width: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav .logo-image{
+    width: 160px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+
+button{
+    height: 30px;
+    width: 60px;
+    background-color: #efefef;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 0.5s;
+}
+
+button span{
+    display: block;
+    height: 26px;
+    width: 26px;
+    border-radius: 50%;
+    background: #7b7a7a;
+    margin-left: 3px;
+    transition: background 0.5s, margin-left 0.5s;
+}
+
+.lamp_cont{
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 200px;
+}
+
+.lamp_image{
+    width: 70%;
+}
+
+.light_image{
+    position: absolute;
+    top: 97%;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: -37px;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.text{
+    max-width: 600px;
+    margin-top: 7%;
+    margin-left: 50%;
+}
+
+.text h1{
+    font-size:70px;
+    font-weight: 400;
+}
+
+.text p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.text a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #00986f;
+    padding: 14px 40px;
+    display: inline-block;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.active{
+    background-color: #00986f;
+}
+
+.active span{
+    background-color: #fff;
+    margin-left: 30px;
+}
+
+.on{
+    opacity: 1;
+}
